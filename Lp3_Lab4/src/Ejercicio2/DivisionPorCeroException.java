@@ -1,5 +1,7 @@
 package Ejercicio2;
 
-public class DivisionPorCeroException {
-
+public class DivisionPorCeroException extends Exception {
+    public DivisionPorCeroException(String mensaje) {
+        super(mensaje);
+    }
 }
