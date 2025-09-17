@@ -1,5 +1,9 @@
 package Ejercicio1;
 
-public class LeerEntrada {
+import java.io.IOException;
 
+public class LeerEntrada {
+	public char getChar() throws IOException {
+		return (char) System.in.read();
+	}
 }

@@ -1,5 +1,7 @@
 package Ejercicio1;
 
-public class ExcepcionSalida {
-
+public class ExcepcionSalida extends Exception {
+    public ExcepcionSalida(String mensaje) {
+        super(mensaje);
+    }
 }
